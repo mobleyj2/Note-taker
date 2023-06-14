@@ -25,7 +25,7 @@
 ---
 
 ## Installation
-  Install
+  Run on localhost 3001
 
 ---
 
@@ -52,7 +52,7 @@
 
   mobleyj2@gmail.com
 
-  #https://drive.google.com/file/d/1y6lwiofpmr781z6Icx-dKiWuU0DZy5_k/view
+  
 
 ---
 

@@ -42,16 +42,20 @@ function createNewNote(body, notesArray) {
   return newNote;
 }
 
+
 app.post('/api/notes', (req, res) => {
   const newNote = createNewNote(req.body, allNote);
   res.json(newNote);
 });
+
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 
+
+
 app.listen(PORT, () => {
-  console.log('Server listening on port', PORT);
+  console.log('listening on port', PORT);
 });
